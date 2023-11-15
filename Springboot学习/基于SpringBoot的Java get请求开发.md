@@ -167,7 +167,7 @@ public class control {
 ```java
 public class getSent {
 
-    private String URL = "https://tci-roder.trans-cosmos.com.cn/api/Wechat/getLatestPayQrCode?accountCode=e6040";
+    private String URL = "";
     public String getinfo(int count) {
         LocalDateTime dateTime = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
